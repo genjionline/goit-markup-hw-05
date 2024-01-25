@@ -702,7 +702,7 @@ header .container,
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -711,7 +711,7 @@ header .container,
 }
 
 .check-input:checked+.check-text-span {
-    background-color: #404bbf;;
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
