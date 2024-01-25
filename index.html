@@ -387,8 +387,67 @@
                     </li>
                 </ul>
             </div>
+            <div class="bottom-form-wrapper">
+                <form action="" class="bottom-form">
+                    <div class="bottom-form-box">
+                        <label for="email" class="bottom-form-text">
+                            Subscribe
+                        </label>
+                        <input class="bottom-form-email" id="email" type="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    <button type="submit" class="bottom-form-button">
+                        <p class="form-button-text">Subscribe</p>
+                        <svg class="form-button-img" width="24" height="24">
+                            <use href="./images/icons.svg#icon-telegram"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
+    <div class="backdrop is-open">
+        <div class="modal">
+                <svg class="modal-close-btn close-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            <p class="modal-title section-title">
+                Leave your contacts and we will call you back
+            </p>
+            <form class="modal-form">
+                <div class="modal-field">
+                    <label for="user-name" class="modal-label">Name</label>
+                    <div class="modal-input-wrap">
+                        <input type="text" name="user-name" class="modal-input" id="user-name" />
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label class="modal-label"><span>Phone</span>
+                        <input type="tel" required name="user-tel" class="modal-input" value="+380" />
+                    </label>
+                </div>
+                <div class="modal-field">
+                    <label for="user-email" class="modal-label">Email</label>
+                    <input type="email" name="user-email" class="modal-input" id="user-email" />
+                </div>
+                <div class="modal-field">
+                    <label for="user-comment" class="modal-label">Comment</label>
+                    <textarea name="user-comment" id="user-comment" class="modal-text" placeholder="Text input"></textarea>
+                </div>
+                <div class="modal-field">
+                    <input type="checkbox" name="policy" id="policy" class="check-input visually-hidden" value="true" />
+                    <label for="policy" class="check-text">
+                        <span>
+                            <svg class="check-icon" width="10" height="10">
+                                <use href="./images/icons.svg#icon-check"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a href="">Privacy Policy</a></label>
+                </div>
+                <button class="modal-form-button" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
