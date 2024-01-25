@@ -439,7 +439,7 @@
                 <div class="modal-field">
                     <label class="modal-label">Phone</label>
                         <div class="modal-input-wrap">
-                            <input type="tel" required name="user-tel" class="modal-input" value="+380" />
+                            <input type="tel" name="user-tel" class="modal-input" />
                             <svg class="modal-form-svg" width="18" height="24">
                                 <use href="./images/icons.svg#icon-phone"></use>
                             </svg>
@@ -462,7 +462,7 @@
                 <div class="modal-field privacy-wrap">
                     <input type="checkbox" name="user-privacy" id="user-privacy" class="check-input visually-hidden"
                         value="true" />
-                    <label for="user-privacy" class="check-text"></label>
+                    <label for="user-privacy" class="check-text">
                         <span class="check-text-span">
                             <svg class="check-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-check"></use>
@@ -470,6 +470,7 @@
                         </span>
                         I accept the terms and conditions of the
                         <a href="" class="check-text-link">Privacy Policy</a>
+                    </label>    
                 </div>
                 <button class="modal-form-button" type="submit">Send</button>
             </form>
