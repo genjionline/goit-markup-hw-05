@@ -505,7 +505,6 @@ header .container,
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 16px;
     border-radius: 4px;
     background-color: #4D5AE5;
     border: none;
