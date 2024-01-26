@@ -691,7 +691,6 @@ header .container,
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
     align-items: center;
     position: relative;
 }
@@ -709,7 +708,7 @@ header .container,
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-input:checked .check-text-span {
+.check-input:checked+.check-text>.check-text-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
